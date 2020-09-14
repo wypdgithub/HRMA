@@ -1,5 +1,6 @@
 ﻿using Abp.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using HRManager.Entitys;
 
 namespace HRManager.EntityFrameworkCore
 {
@@ -12,5 +13,6 @@ namespace HRManager.EntityFrameworkCore
         {
 
         }
+        public DbSet<SickType> SickType { get; set; }
     }
 }

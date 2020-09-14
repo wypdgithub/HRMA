@@ -20,6 +20,11 @@
     <None Remove="Migrations\**" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\20200914125007_Add1.cs" />
+    <Compile Include="Migrations\20200914125007_Add1.Designer.cs" />
+    <Compile Include="Migrations\HRManagerDbContextModelSnapshot.cs" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\HRManager.Core\HRManager.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
